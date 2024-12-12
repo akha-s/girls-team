@@ -1,10 +1,33 @@
 .section__three-wrapper{
-    background-color: #161616;
+    background-color: $li-color;
     border-radius: 40px;
+    @include d-flex(flex-start, 80px);
 }
 
 .section__three-p{
-    color: #696969;
+    color: $minititle-color;
     font-weight: 700;
     font-size: 12px;
+    padding: 107px 338px 17px 58px;
+}
+
+.section__three-title{
+    font-weight: 700;
+    font-size: 36px;
+    margin-left: 58px;
+}
+
+.section__three-ptwo{
+    width: 529px;
+    font-weight: 14px;
+    color: $main-color;
+    margin-left: 58px;
+    margin-top: 31px;
+}
+
+.section__three-btn{
+    @include btn(14px 18px, $secondary-color, $main-color);
+    margin-top: 54px;
+    margin-left: 58px;
+    margin: 54px 58px 85px;
 }
