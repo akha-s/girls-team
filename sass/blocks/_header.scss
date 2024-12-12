@@ -1,0 +1,16 @@
+.header__wrapper {
+    @include d-flex(space-between);
+}
+
+.header__menu {
+    @include d-flex(flex-start, 64px);
+}
+
+.header__link {
+    color: $main-color;
+    font-family: girls;
+}
+
+.header__info {
+    @include d-flex(flex-start, 12px);
+}
