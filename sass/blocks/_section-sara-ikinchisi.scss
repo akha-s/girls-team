@@ -1,31 +1,93 @@
-.sara-section__p{
-    font-weight: 700;
-    font-size: 12px;
-    color: #696969;
-    margin-top: 67px;
-    margin-left: 500px;
+.sara-section__p {
+  font-weight: 700;
+  font-size: 12px;
+  color: #696969;
+  margin-top: 67px;
+  margin-left: 500px;
 }
 
-.sara-section__title{
-    font-weight: 700;
-    font-size: 40px;
-    color: white;
-    margin-top: 21px;
-    margin-left: 560px;
+.sara-section__title {
+  font-weight: 700;
+  font-size: 40px;
+  color: white;
+  margin-top: 21px;
+  margin-left: 560px;
 }
 
-.sara-section__ptwo{
-    color: white;
+.sara-section__ptwo {
+  color: white;
+  font-size: 14px;
+  margin-top: 18px;
+  text-align: center;
+}
+
+.sara-section__li {
+  background-color: $bg-color;
+  width: 472px;
+  height: 577px;
+  border-radius: 40px;
+}
+
+.sara-section_ul {
+  margin-top: 117px;
+  @include d-flex (flex-start,0)
+}
+
+.type__p {
+  font-weight: 700;
+  font-size: 16px;
+  color: $secondary-color;
+  padding: 44px 136px 24px 58px;
+}
+
+.type {
+  @include d-flex(flex-start, 0);
+}
+
+.type__title {
+  font-weight: 700;
+  color: $main-color;
+  margin-left: 58px;
+  font-size: 40px;
+}
+
+.put{
+    @include d-flex (flex-start, 10px);
+    margin-bottom: 48px;
+}
+
+.type__subtitle{
+    margin-top: 12px;
+    font-weight: 700;
     font-size: 14px;
-    margin-top: 18px;
-    text-align: center;
+    color: $main-color;
 }
 
-.sara-section__li{
-    background-color: $bg-color;
-    width: 472px;
-    height: 577px;
-    border-radius: 40px;
+.inner__ul{
+    display: flex;
+    flex-direction: column;
+    gap: 17px;
 }
 
+.inner__li{
+    @include d-flex(flex-start,16px);
+    margin-left: 58px;
+}
+
+.inner__p{
+    font-size: 14px;
+    color: $main-color;
+}
+
+.inner__btn{
+    @include btn (14px 84px, $secondary-color, $main-color);
+    margin-left: 58px;
+    margin-top: 50px;
+    border-radius: 220px;
+}
+
+.active{
+    background-color: $secondary-color;
+    transform: scale(1.1);
+}
 
