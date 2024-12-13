@@ -1,0 +1,65 @@
+.rooms__wrapper {
+    margin: 79px 0;
+    @include d-flex(flex-start, 93px);
+}
+
+.rooms__minititle {
+    font-weight: 700;
+    font-size: 12px;
+    color: $minititle-color;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+.rooms__title {
+    font-weight: 700;
+    font-size: 36px;
+    margin: 28px 0 41px;
+}
+
+.rooms__item {
+    @include d-flex(flex-start, 32px);
+    padding: 27px 0;
+}
+
+.item--active {
+    display: flex;
+    flex-direction: column;
+    gap: 19px;
+    align-items: flex-start;
+    justify-content: start;
+}
+
+.li--active {
+    @include d-flex(flex-start, 32px);
+}
+
+.rooms__arrow {
+    width: 44px;
+    height: 44px;
+    padding: 4px;
+    border-radius: 50%;
+    background-color: $secondary-color;
+    @include d-flex(center);
+}
+
+.rooms__subtitle {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.rooms__text {
+    margin-left: 76px;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.rooms__hr {
+    width: 642px;
+    height: 2px;
+    background-color: #80808021;
+}
+
+.reverse__arrow {
+    transform: rotate(180deg);
+}

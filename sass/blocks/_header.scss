@@ -1,0 +1,39 @@
+.header__wrapper {
+    @include d-flex(space-between);
+    padding: 40px 0;
+}
+
+.header__menu {
+    @include d-flex(flex-start, 64px);
+}
+
+.header__link {
+    color: $main-color;
+    font-family: girls;
+}
+
+.header__info {
+    @include d-flex(flex-start, 12px);
+}
+
+.header__box {
+    width: 109px;
+    height: 45px;
+    border-radius: 220px;
+    background-color: $main-color;
+    @include d-flex(flex-start);
+}
+
+.header__sun {
+    padding: 7px 13px 7px 4px;
+}
+
+.header__moon {
+    background-color: $secondary-color;
+    padding: 7px 16px 7px 13px;
+    border-radius: 220px;
+}
+
+.header__btn {
+    @include btn(14px 48px, $secondary-color, $main-color);
+}
