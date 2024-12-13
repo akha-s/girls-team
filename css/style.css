@@ -174,6 +174,15 @@ body {
   margin: 54px 58px 85px;
 }
 
+.cat__img {
+  width: 634px;
+  height: 469px;
+  margin-top: 34px;
+  background-image: url("../../assents/section-three-chizu.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
 .section2__wrapper {
   display: flex;
   align-items: center;
@@ -198,23 +207,10 @@ body {
 }
 
 .section__two__btn {
-  padding: 14px 41px;
-  border-radius: 220px;
-  background-color: #C75E90;
-  color: #FFFFFF;
-  border: 1px solid transparent;
-  font-family: girls;
-  font-weight: 700;
-  font-size: 1rem;
-  position: relative;
   margin-top: 20px;
 }
 
 .mini_btn {
-  margin: 10px;
-  padding: 12px 13px;
-  background-color: #c75e90;
-  border: none;
   border-radius: 116px;
   position: absolute;
   margin-left: 320px;
@@ -236,6 +232,10 @@ body {
   font-size: 30px;
 }
 
+.hapl {
+  position: relative;
+}
+
 .naqw2 {
   position: absolute;
   margin-top: 240px;
@@ -243,15 +243,16 @@ body {
 }
 
 .big__cat {
-  position: relative;
+  position: absolute;
 }
 
 .naqw1 {
-  position: absolute;
+  position: relative;
   margin-left: -30px;
 }
 
 .big__cat {
+  margin-top: 80px;
   margin-top: 80px;
 }
 
@@ -288,6 +289,10 @@ body {
   width: 850px;
   border-radius: 20px;
   height: 80px;
+  background-color: #c75e90;
+  width: 850px;
+  border-radius: 20px;
+  height: 80px;
 }
 
 .lacatsya {
@@ -299,11 +304,22 @@ body {
   margin-left: 30px;
   margin-top: 19px;
   color: white;
+  margin-left: 30px;
+  margin-top: 19px;
+  color: white;
 }
 
 .longbtn {
-  background-color: #8E345F;
-  width: 400px;
+  background-color: #8e345f;
+  border-radius: 20px;
+  height: 80px;
+  position: absolute;
+  margin-left: 450px;
+  margin-top: -80px;
+}
+
+.longbtn {
+  background-color: #8e345f;
   border-radius: 20px;
   height: 80px;
   position: absolute;
@@ -313,10 +329,14 @@ body {
 
 .lacatsyaa {
   margin: 10px;
+  margin: 10px;
   padding: 12px 13px;
   background-color: #b7407a;
   border: none;
   border-radius: 116px;
+  margin-left: 30px;
+  margin-top: 19px;
+  color: white;
   margin-left: 30px;
   margin-top: 19px;
   color: white;
@@ -398,6 +418,36 @@ body {
 
 .reverse__arrow {
   transform: rotate(180deg);
+}
+
+.sara-section__p {
+  font-weight: 700;
+  font-size: 12px;
+  color: #696969;
+  margin-top: 67px;
+  margin-left: 500px;
+}
+
+.sara-section__title {
+  font-weight: 700;
+  font-size: 40px;
+  color: white;
+  margin-top: 21px;
+  margin-left: 560px;
+}
+
+.sara-section__ptwo {
+  color: white;
+  font-size: 14px;
+  margin-top: 18px;
+  text-align: center;
+}
+
+.sara-section__li {
+  background-color: #1D1D1D;
+  width: 472px;
+  height: 577px;
+  border-radius: 40px;
 }
 
 .celebrate__wrapper {

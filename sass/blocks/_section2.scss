@@ -19,12 +19,13 @@
 }
 
 .section__two__btn {
-  @include btn(14px 41px, $secondary-color, $main-color);
+  //  @include btn(14px 41px, $secondary-color, $main-color);
+  // @include btn(14px 41px, $secondary-color, $main-color);
   margin-top: 20px;
 }
 
 .mini_btn {
-  @include btn(12px 13px, $secondary-color);
+  // @include btn(12px 13px, $secondary-color);
   border-radius: 116px;
   position: absolute;
   margin-left: 320px;
